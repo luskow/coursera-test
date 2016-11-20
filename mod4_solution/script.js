@@ -1,7 +1,7 @@
 (function () {
   var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
-  for (prop in names) {
+  for (var prop in names) {
 
     var firstLetter = names[prop].charAt(0);
 
